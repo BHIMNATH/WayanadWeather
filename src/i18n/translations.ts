@@ -1,0 +1,162 @@
+export const translations = {
+    ml: {
+        // Navbar
+        home: "ഹോം",
+        about: "വിവരങ്ങൾ",
+        gallery: "ഗാലറി",
+        dashboard: "ഡാഷ്ബോർഡ്",
+        admin: "അഡ്മിൻ",
+        logout: "ലോഗൗട്ട്",
+        login: "ലോഗിൻ",
+        appName: "വയനാട് വെതർ",
+
+        // Home
+        latestUpdates: "ഏറ്റവും പുതിയ വിവരങ്ങൾ",
+        lastUpdated: "അവസാനം പുതുക്കിയത്",
+        temp: "താപനില",
+        rainfall: "മഴ",
+        normal: "സാധാരണ",
+        watch: "നിരീക്ഷണം",
+        warning: "മുന്നറിയിപ്പ്",
+        exploreClusters: "നിങ്ങളുടെ പ്രദേശത്തെ കാലാവസ്ഥാ മാറ്റങ്ങളും മുന്നറിയിപ്പുകളും കാണുന്നതിന് ക്ലസ്റ്ററുകൾ പരിശോധിക്കുക.",
+
+        // About
+        aboutTitle: "പദ്ധതിയെക്കുറിച്ച്",
+        purpose: "ലക്ഷ്യം",
+        aboutDescription: "വയനാട് വെതർ ഒരു കമ്മ്യൂണിറ്റി അധിഷ്ഠിത കാലാവസ്ഥാ നിരീക്ഷണ പ്ലാറ്റ്‌ഫോമാണ്, ഇത് വിവിധ ജില്ലകൾക്കും ക്ലസ്റ്ററുകൾക്കുമായി തത്സമയ അപ്‌ഡേറ്റുകളും ചരിത്രപരമായ പ്രവണതകളും നൽകുന്നതിന് രൂപകൽപ്പന ചെയ്‌തിരിക്കുന്നു. കൃത്യവും പ്രാദേശികവുമായ കാലാവസ്ഥാ വിവരങ്ങൾ ഉപയോഗിച്ച് പൗരന്മാരെയും പ്രാദേശിക അധികാരികളെയും ശാക്തീകരിക്കുക എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം.",
+        contact: "ബന്ധപ്പെടുക",
+        disclaimer: "ഈ സിസ്റ്റം പൊതുജന അറിയിപ്പിനായി മാത്രമുള്ള കാലാവസ്ഥാ വിവരങ്ങൾ നൽകുന്നു.",
+        footerDisclaimer: "“ഈ സിസ്റ്റം പൊതുജന അറിയിപ്പിനായി മാത്രമുള്ള കാലാവസ്ഥാ വിവരങ്ങൾ നൽകുന്നു.”",
+
+        // Login
+        welcomeBack: "സ്വാഗതം",
+        loginSubtitle: "കാലാവസ്ഥാ വിവരങ്ങൾ കൈകാര്യം ചെയ്യാൻ ലോഗിൻ ചെയ്യുക",
+        email: "ഇമെയിൽ വിലാസം",
+        password: "പാസ്‌വേഡ്",
+        adminOnly: "അഡ്മിൻ രജിസ്ട്രേഷൻ മാത്രം. പ്രവേശനത്തിനായി നിങ്ങളുടെ പ്രാദേശിക ഓഫീസുമായി ബന്ധപ്പെടുക.",
+
+        // User Dashboard
+        submitData: "കാലാവസ്ഥാ വിവരങ്ങൾ സമർപ്പിക്കുക",
+        district: "ജില്ല",
+        state: "സംസ്ഥാനം",
+        cluster: "ക്ലസ്റ്റർ",
+        latitude: "അക്ഷാംശം",
+        longitude: "രേഖാംശം",
+        submitRecord: "റെക്കോർഡ് സമർപ്പിക്കുക",
+        mySubmissions: "എന്റെ സമർപ്പിക്കലുകൾ",
+        noData: "വിവരങ്ങളൊന്നും ഇതുവരെ സമർപ്പിച്ചിട്ടില്ല.",
+        dateTime: "തീയതിയും സമയവും",
+
+        // Admin Dashboard
+        userManagement: "ഉപയോക്തൃ മാനേജ്‌മെന്റ്",
+        dataManagement: "ഡാറ്റ മാനേജ്‌മെന്റ്",
+        registeredUsers: "രജിസ്റ്റർ ചെയ്ത ഉപയോക്താക്കൾ",
+        addUser: "ഉപയോക്താവിനെ ചേർക്കുക",
+        cancel: "റദ്ദാക്കുക",
+        fullName: "മുഴുവൻ പേര്",
+        mobile: "മൊബൈൽ",
+        role: "റോൾ",
+        confirmAdd: "ഉപയോക്താവിനെ ചേർക്കുന്നത് സ്ഥിരീകരിക്കുക",
+        allEntries: "എല്ലാ കാലാവസ്ഥാ എൻട്രികളും",
+        allClusters: "എല്ലാ ക്ലസ്റ്ററുകളും",
+        submittedBy: "സമർപ്പിച്ചത്",
+        actions: "നടപടികൾ",
+        status: "നില",
+        active: "സജീവം",
+        disabled: "അപ്രാപ്തമാക്കി",
+        edit: "എഡിറ്റ് ചെയ്യുക",
+        delete: "ഡിലീറ്റ് ചെയ്യുക",
+        passwordLabel: "പാസ്‌വേഡ്",
+        projectBy: "പ്രോജക്റ്റ് ബൈ ഹ്യൂം സെന്റർ",
+        copyrightBy: "പകർപ്പവകാശം ഹ്യൂം സെന്റർ",
+        developedBy: "വികസിപ്പിച്ചത് അശ്വിൻ ഭീം നാഥ്",
+        invalidPassword: "തെറ്റായ പാസ്‌വേഡ്.",
+        accountNotFound: "അക്കൗണ്ട് കണ്ടെത്തിയില്ല. ദയവായി ഒരു അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക.",
+        saveChanges: "മാറ്റങ്ങൾ സംരക്ഷിക്കുക",
+        gallery: "ഗാലറി",
+        survey: "സാമൂഹിക സാമ്പത്തിക സർവേ",
+        instruments: "കാലാവസ്ഥാ ഉപകരണങ്ങൾ",
+        videos: "വീഡിയോ വിഭാഗം"
+    },
+    en: {
+        // Navbar
+        home: "Home",
+        about: "About",
+        gallery: "Gallery",
+        dashboard: "Dashboard",
+        admin: "Admin",
+        logout: "Logout",
+        login: "Login",
+        appName: "Wayanad Weather",
+
+        // Home
+        latestUpdates: "Latest Updates",
+        lastUpdated: "Last updated at",
+        temp: "Temp",
+        rainfall: "Rainfall",
+        normal: "Normal",
+        watch: "Watch",
+        warning: "Warning",
+        exploreClusters: "Explore the clusters to see detailed weather dynamics and alerts for your region.",
+
+        // About
+        aboutTitle: "About the Project",
+        purpose: "Purpose",
+        aboutDescription: "Wayanad Weather is a community-driven weather monitoring platform designed to provide real-time updates and historical trends for various districts and clusters. Our goal is to empower citizens and local authorities with accurate, localized weather data.",
+        contact: "Contact",
+        disclaimer: "This system provides informational weather updates for public awareness only.",
+        footerDisclaimer: "“This system provides informational weather updates for public awareness only.”",
+
+        // Login
+        welcomeBack: "Welcome Back",
+        loginSubtitle: "Login to manage weather data",
+        email: "Email Address",
+        password: "Password",
+        adminOnly: "Admin-only registration. Contact your local office for access.",
+
+        // User Dashboard
+        submitData: "Submit Weather Data",
+        district: "District",
+        state: "State",
+        cluster: "Cluster",
+        latitude: "Latitude",
+        longitude: "Longitude",
+        submitRecord: "Submit Record",
+        mySubmissions: "My Submissions",
+        noData: "No data submitted yet.",
+        dateTime: "Date & Time",
+
+        // Admin Dashboard
+        userManagement: "User Management",
+        dataManagement: "Data Management",
+        registeredUsers: "Registered Users",
+        addUser: "Add User",
+        cancel: "Cancel",
+        fullName: "Full Name",
+        mobile: "Mobile",
+        role: "Role",
+        confirmAdd: "Confirm Add User",
+        allEntries: "All Weather Entries",
+        allClusters: "All Clusters",
+        submittedBy: "Submitted By",
+        actions: "Actions",
+        status: "Status",
+        active: "Active",
+        disabled: "Disabled",
+        edit: "Edit",
+        delete: "Delete",
+        passwordLabel: "Password",
+        projectBy: "Project by Hume Center",
+        copyrightBy: "Copyright by Hume Center",
+        developedBy: "Developed by Aswin Bhim Nath",
+        invalidPassword: "Invalid password.",
+        accountNotFound: "Account not found. Please contact an administrator.",
+        saveChanges: "Save Changes",
+        gallery: "Gallery",
+        survey: "Social Economic Survey",
+        instruments: "Weather Instruments",
+        videos: "Video Section"
+    }
+};
+
+export type TranslationKey = keyof typeof translations.en;
