@@ -73,7 +73,7 @@ export const translations = {
         invalidPassword: "തെറ്റായ പാസ്‌വേഡ്.",
         accountNotFound: "അക്കൗണ്ട് കണ്ടെത്തിയില്ല. ദയവായി ഒരു അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക.",
         saveChanges: "മാറ്റങ്ങൾ സംരക്ഷിക്കുക",
-        gallery: "ഗാലറി",
+        galleryml: "ഗാലറി",
         survey: "സാമൂഹിക സാമ്പത്തിക സർവേ",
         instruments: "കാലാവസ്ഥാ ഉപകരണങ്ങൾ",
         videos: "വീഡിയോ വിഭാഗം"
@@ -152,7 +152,7 @@ export const translations = {
         invalidPassword: "Invalid password.",
         accountNotFound: "Account not found. Please contact an administrator.",
         saveChanges: "Save Changes",
-        gallery: "Gallery",
+        galleryml: "Gallery",
         survey: "Social Economic Survey",
         instruments: "Weather Instruments",
         videos: "Video Section"
